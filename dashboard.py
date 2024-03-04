@@ -22,7 +22,7 @@ if selected_page == "Dashboard":
 
     @st.cache_data
     def load_data():
-        df = pd.read_csv("D:\BANGKIT\DICODING\DATASET\Bike-sharing-dataset\hour.csv")
+        df = pd.read_csv("hour.csv")
         df['dteday'] = pd.to_datetime(df['dteday'])
         return df
 
