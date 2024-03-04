@@ -6,7 +6,7 @@ import calendar
 import seaborn as sns
 import numpy as np 
 
-df = pd.read_csv("D:\BANGKIT\DICODING\DATASET\Bike-sharing-dataset\hour.csv")
+df = pd.read_csv("hour.csv")
 
 st.sidebar.title("Navigation")
 
